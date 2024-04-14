@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex flex-col items-center space-y-8">
-        <img src="/logo.jpg" alt="" width={200} height={200} />
+        <img src="/logo.png" alt="" width={200} height={200} />
 
         <p className="text-2xl md:text-4xl">
           {Array.from(animatedName || name).map((character, i) => {
